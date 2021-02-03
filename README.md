@@ -1,3 +1,1 @@
-# airpilots
-# airpilotseurope
 # airpilotseurope
