@@ -2688,16 +2688,24 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
-		background-color: #ffffff;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,							center center;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								cover;
-		color: #	;
-		padding: 16em 0 14em 0;
-		text-align: center;
-	}
+
+	#banner video {
+			-moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			z-index: -1;
+		}
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -2742,7 +2750,7 @@ input, select, textarea {
 		}
 
 		#intro footer {
-			border-top: solid 2px #e8eaeb;
+			border-top: solid 2px #FF8C00;
 			margin: 2em 0 0 0;
 			padding: 2em 0 0 0;
 		}
