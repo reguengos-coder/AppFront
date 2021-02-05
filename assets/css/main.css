@@ -970,6 +970,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+
 			}
 
 				.row > * {
@@ -2591,12 +2592,12 @@ input, select, textarea {
 					}
 
 		#header.alt {
-			background: none;
+			background: color;
 			border: none;
 			box-shadow: none;
 			color: #ffffff;
-			height: 4em;
-			line-height: 4em;
+			height: 5em;
+			line-height: 3em;
 			position: absolute;
 		}
 
@@ -2863,7 +2864,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 4em 0;
+				padding: 1em 0;
 			}
 
 		/* Banner */
@@ -3087,7 +3088,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					border-bottom: 0;
-					border-top: solid 1px #08222e;
+					border-top: solid 1px #ff9000;
 					color: #cccecf !important;
 					display: block;
 					height: 44px;
@@ -3100,7 +3101,7 @@ input, select, textarea {
 					}
 
 					#navPanel .link.depth-0 {
-						color: #055e87 !important;
+						color: #ffffff !important;
 					}
 
 					#navPanel .link .indent-1 {
