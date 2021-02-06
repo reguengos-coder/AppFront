@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7e8487;
+		color: #003d66;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #575d60;
+		color: #003d66;
 		font-family: "Open Sans Condensed", sans-serif;
 		font-weight: 700;
 		line-height: 1em;
@@ -2021,7 +2021,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			border: solid 6px #e8eaeb;
+			border: solid 4px #e8eaeb;
 		}
 
 		.image.left {
@@ -2502,7 +2502,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #c3e2f0;
+			background: ;
 		}
 
 		.wrapper.style2 {
@@ -2752,7 +2752,7 @@ input, select, textarea {
 		}
 
 		#intro footer {
-			border-top: solid 2px #FF8C00;
+			border-top: solid 2px #ffd199;
 			margin: 2em 0 0 0;
 			padding: 2em 0 0 0;
 		}
@@ -2773,13 +2773,13 @@ input, select, textarea {
 /* Main */
 
 	#main .container > section {
-		border-top: solid 6px #e8eaeb;
+		border-top: solid 6px #ffd199;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
 	}
 
 		#main .container > section:first-child {
-			border-top: solid 1px transparent;
+			border-top: solid 1px none;
 			margin-top: 0;
 			padding-top: 0;
 		}
@@ -2807,7 +2807,7 @@ input, select, textarea {
 			}
 
 		#footer .copyright {
-			color: #858a8c;
+			color: #ffd199;
 			font-size: 0.9em;
 			margin: 2em 0 0 0;
 			padding: 0;
