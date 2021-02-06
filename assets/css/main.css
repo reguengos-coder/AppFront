@@ -23,8 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
-
+	vertical-align: baseline;
+	text-align: center;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -138,6 +139,7 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		text-align: center;
 	}
 
 		h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
