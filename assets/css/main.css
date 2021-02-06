@@ -970,7 +970,6 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
-
 			}
 
 				.row > * {
@@ -2594,7 +2593,7 @@ input, select, textarea {
 		#header.alt {
 			background: color;
 			border: none;
-			box-shadow: none;
+			box-shadow: 3px 6px;
 			color: #ffffff;
 			height: 5em;
 			line-height: 3em;
@@ -2864,7 +2863,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 1em 0;
+				padding: 4em 0;
 			}
 
 		/* Banner */
