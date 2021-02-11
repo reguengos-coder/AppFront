@@ -25,7 +25,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 
 	// Your Google reCAPTCHA generated Secret Key here
 	$secret = 'YOUR_RECAPTCHA_SECRET_KEY';
-	
+
 	if( ini_get('allow_url_fopen') ) {
 		//reCAPTCHA - Using file_get_contents()
 		$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
@@ -53,7 +53,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 	if($responseData->success) {
 
 		// Step 1 - Enter your email address below.
-		$email = 'you@domain.com';
+		$email = 'airpilots.eu@gmail.com';
 
 		// If the e-mail is not working, change the debug option to 2 | $debug = 2;
 		$debug = 0;
@@ -69,8 +69,8 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 
 				// Use the commented code below to change label texts. On this example will change "Email" to "Email Address"
 
-				// if( $label == 'Email' ) {               
-				// 	$label = 'Email Address';              
+				// if( $label == 'Email' ) {
+				// 	$label = 'Email Address';
 				// }
 
 				// Checkboxes
@@ -102,8 +102,8 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 			$mail->AddAddress($email);	 						       // Add another recipient
 
 			//$mail->AddAddress('person2@domain.com', 'Person 2');     // Add a secondary recipient
-			//$mail->AddCC('person3@domain.com', 'Person 3');          // Add a "Cc" address. 
-			//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address. 
+			//$mail->AddCC('person3@domain.com', 'Person 3');          // Add a "Cc" address.
+			//$mail->AddBCC('person4@domain.com', 'Person 4');         // Add a "Bcc" address.
 
 			// From - Name
 			$fromName = ( isset($_POST['name']) ) ? $_POST['name'] : 'Website User';
@@ -139,7 +139,7 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 		echo json_encode($arrResult);
 	}
 
-} else { 
+} else {
 	$arrResult = array ('response'=>'error','errorMessage'=>'reCaptcha Error: Invalid token. Please contact the website administrator.');
 	echo json_encode($arrResult);
 }
